@@ -111,7 +111,35 @@
               </div>
           </div>
       </section>
-      <section id="book" class="reservation"></section>
+      <section id="book" class="reservation">
+          <h2 class="reservation__title">Book a table</h2>
+          <form class="reservation__form">
+            <fieldset class="form__fieldset">
+              <label for="name" class="form__label">Name*</label>
+              <input type="text" class="form__input" id="name" name="name" placeholder="Name Surname" required>
+            </fieldset>
+            <fieldset class="form__fieldset">
+              <label for="number_of_guests">Number of guests*</label>
+              <input type="number" class="form__input" min="1" max="8" id="number_of_guests" name="number_of_guests" placeholder="1-8" required>
+            </fieldset>
+            <fieldset class="form__fieldset">
+              <label for="date_and_time">Date & time*</label>
+              <input type="datetime-local" class="form__input" id="date_and_time" name="date_and_time" required>
+            </fieldset>
+            <fieldset class="form__fieldset">
+              <label for="your_email" class="form__label">Your email*</label>
+              <input type="email" class="form__input" id="your_email" name="your_email" placeholder="email@email.com" required>
+            </fieldset>
+          <fieldset class="form__button">
+           <button type="submit" class="form__button">Book a table</button>
+          </fieldset>
+          <fieldset class="form__fieldset">
+            <label for="terms" class="form__label form__label_type_checkbox">
+            <input type="checkbox" class="form__checkbox" name="terms" id="terms">
+            I agree with the terms of use</label>
+          </fieldset>
+          </form>
+      </section>
       <section id="menu" class="menu"></section>
       <section id="contacts" class="about"></section>
   </main>
