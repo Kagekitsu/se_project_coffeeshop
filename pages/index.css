@@ -53,7 +53,7 @@
   position: relative;
   font-family: "Inter", Arial, sans-serif;
   font-style: normal;
-  font-weight: 500px;
+  font-weight: 500;
   font-size: 60px;
   line-height: 72px;
   margin: 202px 0 28px 80px;
@@ -140,7 +140,7 @@
 .recipes {
   background-color: #0a2750;
   background-image: url(../images/background_recipes.svg);
-  background-repeat: no repeat;
+  background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
   padding-top: 100px;
