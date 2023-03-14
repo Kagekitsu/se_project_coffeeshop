@@ -195,7 +195,7 @@
   padding-bottom: 120px;
   background-color: #d9e7ff;
   background-image: url(../images/background_reservation.svg);
-  background-repeat: no no-repeat;
+  background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
   position: relative;
