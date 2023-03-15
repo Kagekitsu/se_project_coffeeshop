@@ -15,11 +15,12 @@
   display: flex;
   justify-content: center;
   max-width: 780px;
-  font-family: "Inter", "Arial", "sans-serif";
+  font-family: "Inter", Arial, sans-serif;
   font-style: normal;
   font-weight: 500;
   font-size: 44px;
   line-height: 52px;
+  margin-left: 310px;
 }
 
 .menu__subtitle {
@@ -28,11 +29,12 @@
   display: flex;
   justify-content: center;
   max-width: 780px;
-  font-family: "Noto Serif", "Times New Roman", "serif";
+  font-family: "Noto Serif", 'Times New Roman', Times, serif;
   font-style: normal;
   font-weight: normal;
   font-size: 20px;
   line-height: 30px;
+  text-align: center;
 }
 
 .menu__cards {

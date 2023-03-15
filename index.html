@@ -10,7 +10,6 @@
     <link rel="shortcut icon" href="./favicon.ico" />
     <link rel="stylesheet" href="./pages/index.css" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
       href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700&family=Noto+Serif:ital@0;1&display=swap"
@@ -21,7 +20,7 @@
   <body>
     <div class="page">
       <header class="header">
-        <div class="">
+        <div>
           <img
             src="./images/logo_coffee_shop.svg"
             alt="Practicum Coffeeshop Logo"
@@ -109,9 +108,7 @@
                 id="surname"
                 placeholder="Name Surname"
                 required
-              />
-            </fieldset>
-            <fieldset class="form__fieldset">
+              /><br><br>
               <label for="guests" class="form__label">Number of guests*</label>
               <input
                 type="number"
@@ -122,20 +119,14 @@
                 id="guests"
                 placeholder="1-8"
                 required
-              />
-            </fieldset>
-
-            <fieldset class="form__fieldset">
+              /><br><br>
               <label for="time" class="form__label">Date & time*</label>
               <input
                 type="datetime-local"
                 id="time"
                 class="form__input"
                 required
-              />
-            </fieldset>
-
-            <fieldset class="form__fieldset">
+              /><br><br>
               <label for="email" class="form__label">Your email*</label>
               <input
                 type="email"
@@ -144,12 +135,11 @@
                 id="email"
                 placeholder="email@email.com"
                 required
-              />
+              /><br><br>
             </fieldset>
 
             <fieldset class="form__fieldset">
-              <button type="button" class="form__button">Book a table</button>
-            </fieldset>
+              <button type="button" class="form__button">Book a table</button><br><br>
 
             <fieldset class="form__fieldset">
               <label for="terms" class="form__label form__label_type_checkbox">
@@ -172,7 +162,7 @@
           </p>
           <div class="menu__cards">
             <div class="card">
-              <h2 class="card__title">Filter</h2>
+              <h3 class="card__title">Filter</h3>
               <ul class="card__list">
                 <li class="card__list-item">
                   Regular(12oz)<span class="card__list-divider"></span>$1
@@ -193,7 +183,7 @@
             </div>
 
             <div class="card">
-              <h2 class="card__title">Espresso</h2>
+              <h3 class="card__title">Espresso</h3>
               <ul class="card__list">
                 <li class="card__list-item">
                   Macchiato<span class="card__list-divider"></span>$2.25
@@ -213,7 +203,7 @@
               </ul>
             </div>
             <div class="card">
-              <h2 class="card__title">Baked Goods</h2>
+              <h3 class="card__title">Baked Goods</h3>
               <ul class="card__list">
                 <li class="card__list-item">
                   Almond Croissant<span class="card__list-divider"></span>$2
@@ -241,7 +231,6 @@
           <div class="about__circle"></div>
           <div
             class="about__circle about__circle_animation_blurred"
-            style="animation-delay: 0s"
           ></div>
           <h2 class="about__title">About the coffee shop</h2>
           <div class="about__content">
