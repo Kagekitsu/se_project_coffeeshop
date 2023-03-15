@@ -17,3 +17,4 @@ In further want to expand the number for guest.
 Want to put a chart and hide people's information that's not them to see how where they are for party.
 Limited how far advance they can reserve a table.
 Put in a way for customers to cancel their reservation.
+Add a way to email person with the confirmation they book a table.

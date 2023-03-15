@@ -1,8 +1,5 @@
 .menu {
-  padding-top: 100px;
-  padding-left: 80px;
-  padding-right: 80px;
-  padding-bottom: 100px;
+  padding: 100px 80px 120px;
   background-color: #fff;
   background-image: url(../images/background_menu.svg);
   background-repeat: no-repeat;
@@ -11,7 +8,6 @@
 }
 
 .menu__title {
-  margin: auto;
   display: flex;
   justify-content: center;
   max-width: 780px;
@@ -20,12 +16,12 @@
   font-weight: 500;
   font-size: 44px;
   line-height: 52px;
-  margin-left: 310px;
+  box-sizing: border-box;
+  margin: 0 auto;
+
 }
 
 .menu__subtitle {
-  margin: auto;
-  margin-top: 24px;
   display: flex;
   justify-content: center;
   max-width: 780px;
@@ -34,7 +30,9 @@
   font-weight: normal;
   font-size: 20px;
   line-height: 30px;
+  margin: 24px auto 0 auto;
   text-align: center;
+  box-sizing: border-box;
 }
 
 .menu__cards {
