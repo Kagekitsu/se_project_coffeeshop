@@ -64,6 +64,7 @@
 
 .header__footer {
   display: flex;
+  position: relative;
   justify-content: space-between;
   align-items: flex-end;
   font-family: "Inter", Arial, sans-serif;
@@ -82,4 +83,6 @@
   font-size: 16px;
   line-height: 20px;
   color: #838383;
+  position: relative;
+  z-index: 1;
 }
