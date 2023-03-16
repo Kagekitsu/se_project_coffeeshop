@@ -7,6 +7,8 @@
   background-size: cover;
 }
 
+
+
 .menu__title {
   display: flex;
   justify-content: center;
@@ -18,8 +20,9 @@
   line-height: 52px;
   box-sizing: border-box;
   margin: 0 auto;
-
 }
+
+
 
 .menu__subtitle {
   display: flex;
@@ -34,6 +37,8 @@
   text-align: center;
   box-sizing: border-box;
 }
+
+
 
 .menu__cards {
   margin: 0;
